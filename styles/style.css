@@ -343,4 +343,24 @@ background: rgba(255, 223, 0, 0.05);
   background: rgb(255, 255, 255);
 }
 
+.footer-social-section{
+  width: 1440px;
+  height: 100px;
+  margin-top: 50px;
+  border:2px solid blue;
+  border-radius: 16px;
+ background: rgba(13, 19, 33, 0.09);
+
+}
+.social-icons{
+  width: 1140px;
+  height: 36px;
+  border: 2px solid green;
+  margin: 0 auto;
+  margin: 32px 152px 32px 150px;
+  
+}
+/* .social-icon{
+  text-align: center;
+} */
 /* the footer section style ends here */
