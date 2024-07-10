@@ -294,3 +294,53 @@ background: rgba(255, 223, 0, 0.05);
 }
 
 /* <!-- my target section ends here --> */
+/* the footer section style stars here */
+
+.support-section{
+  width: 1140px;
+  height: 314px;
+  border: 2px solid red;
+  margin: 0 auto;
+  margin-top: 42px;
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+  background-image: url(../images/assets/handshake.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-repeat:no-repeat ;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+.support-data{
+  width: 1044px;
+  height: 186px;
+  border: 2px solid green;
+  margin: 0 auto;
+  margin-top: 64px;
+  color: white;
+  text-align: center;
+  
+}
+.support-data > * {
+  margin-bottom: 15px; 
+}
+.support-data h3{
+  font-size: 32px;
+  font-weight: 700;
+ color: rgb(255, 255, 255);
+}
+.suggestion-btton{
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+ border-radius: 8px;
+ width: 548px;
+ height: 57px;background: rgb(255, 255, 255);
+}
+.submit-button{
+  width: 120px;
+  height: 57px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+
+/* the footer section style ends here */
