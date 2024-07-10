@@ -25,7 +25,7 @@ font-weight: 700;
     /* border: 2px solid red;  */
     margin: 0 auto;
     margin-top: 50px;
-    background-image: url(/images/assets/Hero-bg.png);
+    background-image: url(../images/assets/Hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,7 +85,7 @@ font-weight: 700;
 }
 /* second-part star here */
  .second-part{
-    max-width: 1140px;
+    width: 1140px;
     height: 1150px;
     /* border: 2px solid red; */
     margin: 0 auto;
@@ -107,7 +107,7 @@ font-weight: 700;
  }
 
  .frame-text{
-  max-width: 477px;
+  width: 477px;
   height: 219px;
     /* border: 2px solid green; */
   border-radius: 16px;
@@ -152,7 +152,7 @@ margin-left: -21rem;
 
  }
  .frame-image{
-max-width: 259.56px;
+width: 259.56px;
 height: 217.01px;
 left: 0.36%;
 right: -0.36%;
@@ -299,7 +299,7 @@ background: rgba(255, 223, 0, 0.05);
 .support-section{
   max-width: 1140px;
   height: 314px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin: 0 auto;
   margin-top: 42px;
   border-radius: 16px;
@@ -314,7 +314,7 @@ background: rgba(255, 223, 0, 0.05);
 .support-data{
   max-width: 1044px;
   height: 186px;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   margin: 0 auto;
   margin-top: 64px;
   color: white;
@@ -322,7 +322,7 @@ background: rgba(255, 223, 0, 0.05);
   
 }
 .support-data > * {
-  margin-bottom: 15px; 
+  margin-bottom: 50px; 
 }
 .support-data h3{
   font-size: 32px;
@@ -346,31 +346,35 @@ background: rgba(255, 223, 0, 0.05);
 .footer-social-section{
   max-width: 1440px;
   height: 100px;
-  margin-top: 50px;
-  border:2px solid blue;
+  /* margin-top: 50px; */
+  /* border:2px solid blue; */
   border-radius: 16px;
- background: rgba(13, 19, 33, 0.09);
+ background: rgba(13, 19, 33, 0.04);
+ margin: 0 auto;
+
 
 }
 .social-icons{
  max-width: 1140px;
   height: 36px;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   margin: 0 auto;
-  margin: 32px 152px 32px 150px; 
+   margin: 32px 152px 32px 150px; 
   display: flex;
   align-items: center;
   justify-content: space-between;
   text-align: center;
+ 
+  
 }
 .socail-taxt{
   width: 456px;
   height: 24px;
-  border: 2px solid brown;
+  /* border: 2px solid brown; */
 }
 .face-git-in{
   width: 157.01px;
  height: 36px;
- border: 2px black;
+ /* border: 2px black; */
 }
 /* the footer section style ends here */
