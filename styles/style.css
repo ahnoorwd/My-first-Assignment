@@ -83,6 +83,16 @@ font-weight: 700;
     background: rgb(13, 19, 33);
   
 }
+.connect-with-me:hover{
+   
+ background-color:green;
+ color:whitesmoke;
+ font-size: 15px;
+ cursor: pointer;
+
+}
+
+
 /* second-part star here */
  .second-part{
     width: 1140px;
@@ -142,14 +152,19 @@ text-align: justify;
     /* background-color: black; */
     /* padding: 10px; */
 color: rgb(13, 19, 33);
-font-family: Azeret Mono;
+/* font-family: Azeret Mono; */
 font-size: 20px;
 font-weight: 600;
 line-height: 23px;
 letter-spacing: 0%;
 text-align: justify;
-margin-left: -21rem;
+ margin-left: -336px;
 
+ }
+ .frame-button:hover{
+  background-color: aquamarine;
+  cursor: pointer;
+  font-size: 25px;
  }
  .frame-image{
 width: 259.56px;
@@ -227,7 +242,7 @@ margin-top: 10px;
   flex-direction: column;
   align-items: center;
   margin-top: 48px;
-  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 
   
 }
@@ -329,12 +344,14 @@ background: rgba(255, 223, 0, 0.05);
   font-weight: 700;
  color: rgb(255, 255, 255);
 }
-.suggestion-btton{
+.suggestion-input{
   box-sizing: border-box;
   border: 1px solid rgba(13, 19, 33, 0.15);
  border-radius: 8px;
  width: 548px;
  height: 57px;background: rgb(255, 255, 255);
+ text-align: center;
+ color: green;
 }
 .submit-button{
   width: 120px;
@@ -342,21 +359,26 @@ background: rgba(255, 223, 0, 0.05);
   border-radius: 8px;
   background: rgb(255, 255, 255);
 }
+.submit-button:hover{
+  background-color: gray;
+  color: yellow;
+}
 
 .footer-social-section{
   max-width: 1440px;
-  height: 100px;
+  height: auto;
   /* margin-top: 50px; */
   /* border:2px solid blue; */
   border-radius: 16px;
  background: rgba(13, 19, 33, 0.04);
  margin: 0 auto;
+ padding: 20px 0;
 
 
 }
 .social-icons{
  max-width: 1140px;
-  height: 36px;
+  /* height: 36px; */
   /* border: 2px solid green; */
   margin: 0 auto;
    margin: 32px 152px 32px 150px; 
@@ -364,17 +386,35 @@ background: rgba(255, 223, 0, 0.05);
   align-items: center;
   justify-content: space-between;
   text-align: center;
+  padding: 0 20px;
  
   
 }
 .socail-taxt{
-  width: 456px;
-  height: 24px;
+  /* width: 456px;
+  height: 24px; */
+  font-size: 18px;
+  color: #333;
   /* border: 2px solid brown; */
 }
 .face-git-in{
-  width: 157.01px;
- height: 36px;
+  /* width: 157.01px;
+ height: 36px; */
  /* border: 2px black; */
+ display: flex;
+ gap: 50px;
+}
+.face-git-in a{
+  display: inline-block;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.face-git-in img{
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+.face-git-in a:hover{
+  transform: scale(1.2);
+  opacity: 0.8;
 }
 /* the footer section style ends here */
